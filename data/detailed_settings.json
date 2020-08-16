@@ -1,0 +1,20 @@
+{
+    "file_source": {
+        "data_distribution_file": "./data/file/data_distribution_3000_new_14.txt",
+        "data_information_file": "./data/file/device_info_3000.txt"
+    },
+    "device_list": {
+        "10000": [0, 20, 22, 23, 81],
+        "30000": [0, 20, 21, 22, 23, 27, 37, 65, 73, 81, 95, 98]
+    },
+    "training_info": {
+        "num_device": 4, 
+        "num_gpu": 2,
+        "num_center_epoch": 1,
+        "num_local_epoch": 3,
+        "num_round": 30,
+        "center_batch_size": 64,
+        "local_batch_size": 50,
+        "show": 0
+    }
+}
