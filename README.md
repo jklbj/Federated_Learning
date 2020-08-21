@@ -1,6 +1,6 @@
 # Federated-Learning
 
-This is a simple reproduction to partly implement and simulate the paper of [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629 "FedAvg").
+This is a simple reproduction to partly implement and simulate the paper of [Communication-Efficient Learning of Deep Networks from Decentralized Data](https://arxiv.org/abs/1602.05629 "FedAvg") by two GPUs.<br />
 We use ZeroMQ which is an open-source universal messaging library to exchange messages between two processes. One is master and the other is device for simulation. The master is responsible for aggregating the delta weights and the device trains its data on different GPUs which represents different devices.
 
 ## Example
