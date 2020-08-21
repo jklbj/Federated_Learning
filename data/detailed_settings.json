@@ -1,7 +1,6 @@
 {
     "file_source": {
-        "data_distribution_file": "./data/file/data_distribution_3000_new_14.txt",
-        "data_information_file": "./data/file/device_info_3000.txt"
+        "devices_weight_folder": "./model/weight/"
     },
     "device_list": {
         "10000": [0, 20, 22, 23, 81],

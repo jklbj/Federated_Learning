@@ -55,7 +55,7 @@ def init_load_weight(model_x):
     :param model which we want to load the initial weight
     """
     model_x.load_weights('model/weight/ini_cifar10.h5')
-
+    
 def init_history():
     """
     Return the inital history dictionary to store accuracy and loss

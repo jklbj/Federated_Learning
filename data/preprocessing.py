@@ -226,7 +226,7 @@ def prepare_for_evaluate(test_images, test_label):
     # Shuffle for 20 times
     for time in range(20):
         test_new_image, test_new_label = shuffle(test_d, test_label, 
-                                            random_state=randint(0, test_images.shape[0]))
+                                             random_state=randint(0, test_images.shape[0]))
     return test_new_image, test_new_label
 
     
